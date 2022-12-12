@@ -14,18 +14,27 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .outterCircle {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background-color: #f6f8fa;
   border-radius: 50%;
+  
 }
 
 .innerCircle {
   transform: translate(25%, 25%);
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   background-color: #f8fafb;
   border-radius: 50%;
+  
+}
+
+.about {
+  padding: 2rem;
+  margin-left: 2rem;
+  color: #3f4a4f;
 }
