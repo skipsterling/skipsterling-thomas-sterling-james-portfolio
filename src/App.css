@@ -24,17 +24,19 @@ body {
   
 }
 
-.innerCircle {
+/* .innerCircle {
   transform: translate(25%, 25%);
   width: 350px;
   height: 350px;
   background-color: #f8fafb;
   border-radius: 50%;
   
-}
+} */
 
 .about {
-  padding: 2rem;
-  margin-left: 2rem;
+  padding: 1rem;
+justify-content: flex-start;
   color: #3f4a4f;
+  display: flex;
+  flex-direction: column;
 }
