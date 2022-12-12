@@ -5,3 +5,27 @@
 body {
   background-color: #f2f4f5;
 }
+
+
+.container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outterCircle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #f6f8fa;
+  border-radius: 50%;
+}
+
+.innerCircle {
+  transform: translate(25%, 25%);
+  width: 200px;
+  height: 200px;
+  background-color: #f8fafb;
+  border-radius: 50%;
+}
