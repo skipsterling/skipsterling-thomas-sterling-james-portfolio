@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import Parallax from '../Parallax';
 
 function threeSec() {
 return (
@@ -16,6 +17,7 @@ return (
 <div className="box2"></div>
 
 <div className="box3">
+<Parallax />
 </div>
 </div>
 </div>
