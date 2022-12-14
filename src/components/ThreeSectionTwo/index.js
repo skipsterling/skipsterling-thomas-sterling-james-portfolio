@@ -10,7 +10,6 @@ return (
 {/* Image is just a placeholder */}
 <img src={img1} alt="react"/>
 <h3 className="c1h3">Content Creator Portfolio</h3>
-<p>A Content Creator Portfolio I created for myself using my favouite library / technology React.js </p>
 <div className="buttonContainer">
 <button className="codeButton">Code</button>
 <button className="appButton">App</button>
@@ -19,7 +18,6 @@ return (
 <div className="cardTwo">
 <img src={img1} alt="react"/>
 <h3 className="c1h3">Weather API</h3>
-<p>I have created a weather app using the weather API from openweathermap.org </p>
 <div className="buttonContainer">
 <button className="codeButton">Code</button>
 <button className="appButton">App</button>
@@ -29,7 +27,6 @@ return (
 <div className="cardThree">
 <img src={img1} alt="react"/>
 <h3 className="c1h3">Day Scheduler</h3>
-<p>I have created a Daily Scheduler </p>
 <div className="buttonContainer">
 <button className="codeButton">Code</button>
 <button className="appButton">App</button>
