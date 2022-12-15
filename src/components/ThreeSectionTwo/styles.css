@@ -1,10 +1,5 @@
-.App {
-    text-align: center;
-    }
-    body {
-    background-color: #f2f4f5;
-    }
-    .container {
+.container {
+
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -13,142 +8,149 @@
     height: 700px;
     width: 100%;
     flex-wrap: wrap;
-    }
-    .cardOne {
+  }
+  
+  .cardOne {
     width: 10%;
     min-width: 300px;
     height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #3f4a4f;
-    border: 1px solid;
-    border-radius: 20px;
-    }
-    .cardTwo {
-    width: 10%;
-    min-width: 300px;
-    height: 30vh;
+    background-image: url(../../assets/images/img9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    }
-    .cardThree {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #fff;
+  }
+  
+  .cardOne:hover {
+    background-image: url(../../assets/images/img10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .cardTwo {
     width: 10%;
     min-width: 300px;
     height: 30vh;
-    flex-direction: column;
+    background-image: url(../../assets/images/img5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
-    }
-    .IconContainer {
+    color: #fff;
+  }
+  
+  .cardTwo:hover {
+    background-image: url(../../assets/images/img6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .cardThree {
+    width: 10%;
+    min-width: 300px;
+    height: 30vh;
+    background-image: url(../../assets/images/img7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+  }
+  
+  .cardThree:hover {
+    background-image: url(../../assets/images/img8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .cardFour {
+    width: 10%;
+    min-width: 300px;
+    height: 30vh;
+    background-image: url(../../assets/images/img11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+  }
+  
+  .cardFour:hover {
+    background-image: url(../../assets/images/img12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .IconContainer {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 5rem;
-    }
-    .gh {
+  }
+  
+  a {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 33%;
-    height: 33%;
-    }
-    
-    .gh:hover {
-    transform: scale(2);
-    transition: all 0.5s ease;
-    }
-    .li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 33%;
-    height: 33%;
-    }
-    
-    .li:hover {
-    transform: scale(2);
-    transition: all 0.5s ease;
-    }
-    
-    .email {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 33%;
-    height: 33%;
-    }
-    
-    .email:hover {
-    transform: scale(2);
-    transition: all 0.5s ease;
-    }
-    img {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 20%;
-    }
-    
-    a {
+    justify-content: space-around;
+    text-decoration: none;
     color: #3f4a4f;
-    }
-    
-    a:hover {
-    color: lightgrey;
-    }
-    
-    .buttonContainer {
+    width: 600px;
+  }
+  
+  .buttonContainer {
     display: flex;
     width: 100%;
     height: 30%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    }
-    
-    
-    .codeButton {
+  }
+  
+  .appButton {
     background-color: #3f4a4f;
     color: white;
     padding: 1rem;
     border-radius: 15px;
-    width: 40%;
-    }
-    
-    .appButton {
-    background-color: #3f4a4f;
-    color: white;
-    padding: 1rem;
-    border-radius: 15px;
-    width: 40%;
-    }
-    
-    .codeButton:hover {
+    width: 50%;
+  }
+  
+  .appButton:hover {
     background-color: lightgrey;
     color: #3f4a4f;
     padding: 1rem;
     border-radius: 15px;
-    width: 100%;
+    transform: scale(1.2);
     transition: all 0.3s ease;
-    }
-    
-    .appButton:hover {
-    background-color: lightgrey;
-    color: #3f4a4f;
-    padding: 1rem;
-    border-radius: 15px;
-    width: 100%;
-    transition: all 0.3s ease;
-    }
-    
+    cursor: pointer;
+  }
