@@ -12,7 +12,7 @@ return (
 <div className="IconContainer">
 <div className="gh"><a href="https://github.com/skipsterling"><i class="fa-brands fa-github"></i></a></div>
 <div className="li"><a href="https://www.linkedin.com/in/tom-james-4893b2120/"><i class="fa-brands fa-linkedin"></i></a></div>
-<div className="email"><a href="mailto: tomsterlingjames@outlook.com.au"><i class="fa-regular fa-envelope"></i></a></div></div>
+<div className="email"><a href="https://docs.google.com/document/d/1YjPb1Y0DWoKn67EPxSNaBEMSUznZqhgfkuiJ0_xLVCY/edit"><i class="fa-regular fa-envelope"></i></a></div></div>
 </div>
 <div className="box2"></div>
 
