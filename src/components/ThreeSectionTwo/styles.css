@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 700px;
+    height: 100%;
     width: 100%;
     flex-wrap: wrap;
   }
