@@ -15,6 +15,15 @@ function threeSecTwo() {
                         <button className="appButton">App</button></a>
                     </div>
                 </div>
+
+                <div className="cardFour">
+                    <h3 className="c1h3">Client Website</h3>
+                    <div className="buttonContainer">
+                    <a href=" https://www.rjpodiatry.com.au/" target="_blank" rel="noreferrer"> 
+                        <button className="appButton">App</button></a>
+                    </div>
+                </div>
+
                 <div className="cardTwo">
                     <h3 className="c1h3">Weather API</h3>
 
@@ -29,14 +38,6 @@ function threeSecTwo() {
                     <h3 className="c1h3">Day Scheduler</h3>
                     <div className="buttonContainer">
                     <a href=" https://skipsterling.github.io/homework-week5/" target="_blank" rel="noreferrer"> 
-                        <button className="appButton">App</button></a>
-                    </div>
-                </div>
-               
-                <div className="cardFour">
-                    <h3 className="c1h3">Client Website</h3>
-                    <div className="buttonContainer">
-                    <a href=" https://www.rjpodiatry.com.au/" target="_blank" rel="noreferrer"> 
                         <button className="appButton">App</button></a>
                     </div>
                 </div>

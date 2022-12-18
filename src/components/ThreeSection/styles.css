@@ -45,6 +45,12 @@
     flex-direction: column;
   }
 
+  @media screen and (max-width: 767px) {
+    .box3 {
+      display: none;
+    }
+  }
+
   .IconContainer {
     width: 100%;
     display: flex;
